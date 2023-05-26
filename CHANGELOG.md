@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Report `seLinuxMount` capability for the CSI Driver, speeding up volume mounts with SELinux
+  relabelling enabled.
+
 ## [v2.1.1] - 2023-05-24
 
 ### Added
